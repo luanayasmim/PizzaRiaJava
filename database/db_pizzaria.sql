@@ -1,10 +1,9 @@
 create database db_pizzaria;
-
 use db_pizzaria;
 
 create table tbl_usuario(
 	id int primary key auto_increment,
-	login varchar(100) ,
+	email varchar(255) not null,
     senha varchar(255) not null,
     tipo_perfil enum('admin', 'funcionario', 'cliente') default 'cliente'
 );
@@ -31,7 +30,6 @@ create table tbl_endereco(
 create table tbl_cliente(
 	cpf varchar(15) primary key,
     nome varchar(255) not null,
-    email varchar(255) not null,
     data_nascimento date, 
     telefone varchar(25) not null,
     id_usuario int,
@@ -85,4 +83,3 @@ create table tbl_entrega(
     foreign key(cpf_entregador) references tbl_funcionario(cpf),
     foreign key(id_pedido) references tbl_pedido(id)
 );
-
