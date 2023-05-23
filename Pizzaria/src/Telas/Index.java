@@ -26,20 +26,195 @@ public class Index extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        panel = new javax.swing.JPanel();
+        principal_area = new javax.swing.JPanel();
+        img_pizza = new javax.swing.JLabel();
+        img_restaurante = new javax.swing.JLabel();
+        h1 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        img2 = new javax.swing.JLabel();
+        img1 = new javax.swing.JLabel();
+        img3 = new javax.swing.JLabel();
+        btn_fazer_pedido = new javax.swing.JButton();
+        btn_home = new javax.swing.JPanel();
+        lbl_home = new javax.swing.JLabel();
+        img_home = new javax.swing.JLabel();
+        img4 = new javax.swing.JLabel();
+        btn_sobre = new javax.swing.JPanel();
+        lbl_sobre = new javax.swing.JLabel();
+        img_sobre = new javax.swing.JLabel();
+        btn_cardapio = new javax.swing.JPanel();
+        lbl_cardapio = new javax.swing.JLabel();
+        img_cardapio = new javax.swing.JLabel();
+        btn_localizacao = new javax.swing.JPanel();
+        lbl_localizacao = new javax.swing.JLabel();
+        img_localizacao = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        panel.setBackground(new java.awt.Color(239, 151, 1));
+        panel.setLayout(null);
 
-        pack();
+        principal_area.setBackground(new java.awt.Color(239, 151, 1));
+        principal_area.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        principal_area.setLayout(null);
+
+        img_pizza.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        img_pizza.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/pizza.png"))); // NOI18N
+        principal_area.add(img_pizza);
+        img_pizza.setBounds(150, 140, 290, 290);
+
+        img_restaurante.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/restaurante.png"))); // NOI18N
+        principal_area.add(img_restaurante);
+        img_restaurante.setBounds(10, 60, 282, 290);
+
+        h1.setBackground(new java.awt.Color(239, 151, 1));
+        h1.setFont(new java.awt.Font("Nunito", 1, 36)); // NOI18N
+        h1.setForeground(new java.awt.Color(34, 27, 27));
+        h1.setText("PizzaRia");
+        principal_area.add(h1);
+        h1.setBounds(500, 90, 150, 30);
+
+        jLabel1.setBackground(new java.awt.Color(239, 151, 1));
+        jLabel1.setFont(new java.awt.Font("Nunito", 0, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(34, 27, 27));
+        jLabel1.setText("Desde 1980 produzindo as melhores pizzas da");
+        principal_area.add(jLabel1);
+        jLabel1.setBounds(500, 160, 340, 40);
+
+        jLabel2.setBackground(new java.awt.Color(239, 151, 1));
+        jLabel2.setFont(new java.awt.Font("Nunito", 0, 16)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(34, 27, 27));
+        jLabel2.setText("ou encomendar nossas deliciosas pizzas pelo");
+        principal_area.add(jLabel2);
+        jLabel2.setBounds(500, 280, 370, 23);
+
+        jLabel3.setBackground(new java.awt.Color(239, 151, 1));
+        jLabel3.setFont(new java.awt.Font("Nunito", 0, 16)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(34, 27, 27));
+        jLabel3.setText("região. Nosso rodízio oferece mais de 60 sabores ");
+        principal_area.add(jLabel3);
+        jLabel3.setBounds(500, 190, 370, 23);
+
+        jLabel4.setBackground(new java.awt.Color(239, 151, 1));
+        jLabel4.setFont(new java.awt.Font("Nunito", 0, 16)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(34, 27, 27));
+        jLabel4.setText("entre pizzas, massas e porções.");
+        principal_area.add(jLabel4);
+        jLabel4.setBounds(500, 210, 370, 23);
+
+        jLabel5.setBackground(new java.awt.Color(239, 151, 1));
+        jLabel5.setFont(new java.awt.Font("Nunito", 0, 16)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(34, 27, 27));
+        jLabel5.setText("Você pode escolher se prefere o serviço à la carte,");
+        principal_area.add(jLabel5);
+        jLabel5.setBounds(500, 260, 370, 23);
+
+        jLabel6.setBackground(new java.awt.Color(239, 151, 1));
+        jLabel6.setFont(new java.awt.Font("Nunito", 0, 16)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(34, 27, 27));
+        jLabel6.setText("nosso delivery.");
+        principal_area.add(jLabel6);
+        jLabel6.setBounds(500, 300, 370, 23);
+
+        panel.add(principal_area);
+        principal_area.setBounds(210, 130, 920, 470);
+
+        img2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/bg-pizza.png"))); // NOI18N
+        panel.add(img2);
+        img2.setBounds(-160, 510, 380, 359);
+
+        img1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/bg-cebola.png"))); // NOI18N
+        panel.add(img1);
+        img1.setBounds(-90, -150, 350, 330);
+
+        img3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/bg-tomate.png"))); // NOI18N
+        panel.add(img3);
+        img3.setBounds(1000, 420, 380, 346);
+
+        btn_fazer_pedido.setBackground(new java.awt.Color(248, 199, 0));
+        btn_fazer_pedido.setFont(new java.awt.Font("Nunito Sans 10pt Black", 0, 14)); // NOI18N
+        btn_fazer_pedido.setText("Fazer Pedido");
+        panel.add(btn_fazer_pedido);
+        btn_fazer_pedido.setBounds(1030, 40, 200, 50);
+
+        btn_home.setBackground(new java.awt.Color(239, 151, 1));
+        btn_home.setLayout(null);
+
+        lbl_home.setFont(new java.awt.Font("Nunito", 0, 14)); // NOI18N
+        lbl_home.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_home.setText("Home");
+        btn_home.add(lbl_home);
+        lbl_home.setBounds(20, 70, 50, 30);
+
+        img_home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/icon-home.png"))); // NOI18N
+        btn_home.add(img_home);
+        img_home.setBounds(10, 10, 70, 60);
+
+        panel.add(btn_home);
+        btn_home.setBounds(400, 30, 100, 110);
+
+        img4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/bg-cogumelo.png"))); // NOI18N
+        panel.add(img4);
+        img4.setBounds(950, -100, 380, 346);
+
+        btn_sobre.setBackground(new java.awt.Color(239, 151, 1));
+        btn_sobre.setLayout(null);
+
+        lbl_sobre.setFont(new java.awt.Font("Nunito", 0, 14)); // NOI18N
+        lbl_sobre.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_sobre.setText("Sobre nós");
+        btn_sobre.add(lbl_sobre);
+        lbl_sobre.setBounds(10, 60, 70, 50);
+
+        img_sobre.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/icon-contato.png"))); // NOI18N
+        btn_sobre.add(img_sobre);
+        img_sobre.setBounds(10, 10, 70, 60);
+
+        panel.add(btn_sobre);
+        btn_sobre.setBounds(520, 30, 90, 110);
+
+        btn_cardapio.setBackground(new java.awt.Color(239, 151, 1));
+        btn_cardapio.setLayout(null);
+
+        lbl_cardapio.setFont(new java.awt.Font("Nunito", 0, 14)); // NOI18N
+        lbl_cardapio.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_cardapio.setText("Cardápio");
+        btn_cardapio.add(lbl_cardapio);
+        lbl_cardapio.setBounds(10, 60, 70, 50);
+
+        img_cardapio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/icon-cardapio.png"))); // NOI18N
+        btn_cardapio.add(img_cardapio);
+        img_cardapio.setBounds(20, 10, 60, 60);
+
+        panel.add(btn_cardapio);
+        btn_cardapio.setBounds(640, 30, 90, 110);
+
+        btn_localizacao.setBackground(new java.awt.Color(239, 151, 1));
+        btn_localizacao.setLayout(null);
+
+        lbl_localizacao.setFont(new java.awt.Font("Nunito", 0, 14)); // NOI18N
+        lbl_localizacao.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbl_localizacao.setText("Onde estamos?");
+        btn_localizacao.add(lbl_localizacao);
+        lbl_localizacao.setBounds(0, 60, 110, 50);
+
+        img_localizacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assents/Images/icon-mapa.png"))); // NOI18N
+        btn_localizacao.add(img_localizacao);
+        img_localizacao.setBounds(30, 10, 60, 60);
+
+        panel.add(btn_localizacao);
+        btn_localizacao.setBounds(760, 30, 110, 110);
+
+        getContentPane().add(panel, java.awt.BorderLayout.CENTER);
+
+        setSize(new java.awt.Dimension(1265, 717));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -78,5 +253,33 @@ public class Index extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel btn_cardapio;
+    private javax.swing.JButton btn_fazer_pedido;
+    private javax.swing.JPanel btn_home;
+    private javax.swing.JPanel btn_localizacao;
+    private javax.swing.JPanel btn_sobre;
+    private javax.swing.JLabel h1;
+    private javax.swing.JLabel img1;
+    private javax.swing.JLabel img2;
+    private javax.swing.JLabel img3;
+    private javax.swing.JLabel img4;
+    private javax.swing.JLabel img_cardapio;
+    private javax.swing.JLabel img_home;
+    private javax.swing.JLabel img_localizacao;
+    private javax.swing.JLabel img_pizza;
+    private javax.swing.JLabel img_restaurante;
+    private javax.swing.JLabel img_sobre;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel lbl_cardapio;
+    private javax.swing.JLabel lbl_home;
+    private javax.swing.JLabel lbl_localizacao;
+    private javax.swing.JLabel lbl_sobre;
+    private javax.swing.JPanel panel;
+    private javax.swing.JPanel principal_area;
     // End of variables declaration//GEN-END:variables
 }
