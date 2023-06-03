@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 public class LoginDao {
     private static Connection conectar() throws ClassNotFoundException, SQLException{
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conectado = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_pizzaria", "root", "root");
+        Connection conectado = DriverManager.getConnection("jdbc:mysql://localhost:3306/db_pizzaria", "root", "5821");
         return conectado;   
     }
     
