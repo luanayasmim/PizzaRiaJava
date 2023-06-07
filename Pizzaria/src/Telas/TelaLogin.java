@@ -167,8 +167,9 @@ public class TelaLogin extends javax.swing.JFrame {
     }//GEN-LAST:event_lbl_reset_senhaMouseExited
 
     private void btn_cadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_cadastrarActionPerformed
+
         dispose();
-        //Colocar tela de cadastro
+        new Tela_cadastro().setVisible(true);
     }//GEN-LAST:event_btn_cadastrarActionPerformed
 
     public static void main(String args[]) {
